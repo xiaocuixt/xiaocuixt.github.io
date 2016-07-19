@@ -1,13 +1,13 @@
 # Site settings
-title: 小崔的博客
+title: 我的java学习博客
 tagline: 
-email: cjw624923@gmail.com
+email: z941218@outlook.com
 description: > # this means to ignore newlines until "baseurl:"
-  Hi, I'm a Web Developer, 热爱ROR开发, HTML CSS Javascript学习, 目标成为一名Full Stack Developer.
+  大家好，希望大家可以看到我的博客内容，发表意见，一起成长，成为高薪程序员！
 baseurl: "" # the subpath of your siimte, e.g. /blog/
-url: "http://xiaocuixt.github.io" # the base hostname & protocol for your site
+url: "http://zdq1994.github.io" # the base hostname & protocol for your site
 logourl: /assets/images/logo.png # Site logo
-author: "XiaoCui"
+author: "zdq"
 author_thumbnail: "/assets/images/avatar.jpg" # Author avatar
 # Theme customization - please change from the defaults!
 theme:
