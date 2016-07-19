@@ -15,12 +15,12 @@ theme:
   highlight_color: "#205081" #205081" # "#272935"
   # Social media links, leave blank to ignore
   social: 
-    github: xiaocuixt
-    twitter: xiaocuixt
-    facebook: xiaocuixt
-    gplus: +xiaocuixt
+    github: zdqxt
+    twitter:  zdqxt
+    facebook: zdqxt
+    gplus: + zdqxt
     # dribble: gayanvirajith
-    pinterest: xiaocuixt
+    pinterest:  zdqxt
 
   # Enable share buttons on post footer
   show_share_buttons: true
@@ -29,7 +29,7 @@ theme:
   show_author_info: true
 
   # Disqus comments manager - shortname
-  disqus_shortname: xiaocuixt
+  disqus_shortname:  zdqxt
 
   # Google Analytics/Webmaster key, leave blank to ignore
   google_analytics_key: 
