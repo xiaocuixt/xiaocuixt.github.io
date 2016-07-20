@@ -18,3 +18,4 @@ banner_image: sample-banner-image-3.jpg
     {% endif %}
     <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
 {% endfor %}
+</div>
