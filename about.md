@@ -6,13 +6,13 @@ banner_image: sample-banner-image-2.jpg
 banner_image_alt: About me
 ---
 
-Web开发工程师, Ruby On Rails开发者, 主攻Ruby, HTML, CSS, Javascript语言, 目标成为一个 Full Stack Developer.
+java开发工程师，熟练掌握java后台技术，javaweb技术，对html,css,js,android，方面都有涉猎，此博客使用Github搭建。
 
 ### 联系我
 
-邮箱: cjw624923@gmail.com.
+邮箱: z941218@outlook.com
 
-微博: <a href="http://weibo.com/u/1938705522">http://weibo.com/u/1938705522</a>
+微博: <a href="http://weibo.com/u/5562379862?refer_flag=1001030102_&is_all=1">http://weibo.com/u/1938705522</a>
 
 ---
 

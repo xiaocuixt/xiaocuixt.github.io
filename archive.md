@@ -5,7 +5,10 @@ permalink: /archive/
 banner_image: sample-banner-image-3.jpg
 ---
 
+
+
 <div>
+<ul>
   {% for post in site.posts %}
     {% capture currentyear %}{{post.date | date: "%Y"}}{% endcapture %}
     {% if currentyear != year %}
@@ -18,4 +21,5 @@ banner_image: sample-banner-image-3.jpg
     {% endif %}
     <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
 {% endfor %}
+</ul>
 </div>
