@@ -94,7 +94,8 @@ document.write(['<a class="qcShareQQDiv" href="http://connect.qq.com/widget/shar
 var url = window.location.search; 
 // alert(url.length); 
 // alert(url.lastIndexOf('=')); 
-var loc = url.substring(url.lastIndexOf('=')+1, url.length); 
-alert(loc+url);
+var stat = url.substring(url.lastIndexOf('=')+1, url.length); 
+var code = url.substring(url.IndexOf('=')-1, url.length); 
+alert(stat+code);
 </script>
 
