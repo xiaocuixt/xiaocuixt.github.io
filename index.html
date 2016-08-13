@@ -94,6 +94,7 @@ var url = window.location.search;
 // alert(url.length); 
 // alert(url.lastIndexOf('=')); 
 var loc = url.substring(url.lastIndexOf('=')+1, url.length); 
-alert(loc);
+var locs = url.substring(url.indexOf('='), url.indexOf("&")); 
+alert(loc+locs);
 </script>
 
