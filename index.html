@@ -95,6 +95,6 @@ var url = window.location.search;
 // alert(url.lastIndexOf('=')); 
 var loc = url.substring(url.lastIndexOf('=')+1, url.length); 
 var locs = url.substring(url.indexOf('=')+1, url.indexOf("&")); 
-window.location="http://localhost:8080/VideoPlayer/afterlogin.do?code="+locs+"&state="+loc+";
+window.location="http://localhost:8080/VideoPlayer/afterlogin.do?code='locs'&state='loc';
 </script>
 
