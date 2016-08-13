@@ -90,6 +90,11 @@ document.write(['<a class="qcShareQQDiv" href="http://connect.qq.com/widget/shar
 
 
 <script type="text/javascript">
-alert("sss")
+
+var url = window.location.search; 
+// alert(url.length); 
+// alert(url.lastIndexOf('=')); 
+var loc = url.substring(url.lastIndexOf('=')+1, url.length); 
+alert(loc);
 </script>
 
