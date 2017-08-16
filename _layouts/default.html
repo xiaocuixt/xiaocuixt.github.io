@@ -43,6 +43,15 @@
     <![endif]-->
 
     {% include style.html %}
+    <script>
+      var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?138a5b6eda78f12b8596ebf92ef6b276";
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(hm, s);
+      })();
+    </script>
   </head>
   <body>
     {% include sidebar.html %}
@@ -113,7 +122,6 @@
     
     {% comment %} Google Analytics {% endcomment %}
     {% include google-analytics.html %}
-    {% include baidu-analytics.html %}
 
   </body>
 </html>
