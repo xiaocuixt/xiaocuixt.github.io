@@ -6,7 +6,7 @@ categories: rails
 comments: true
 ---
 
-在rails中，rake用来编写任务脚本，让我们在cli中可以执行，提供了良好的任务编写结构，并且方便执行相互依赖的任务
+在rails项目中,rake是一个自动化任务的构建工具，rake用来编写任务脚本，让我们在cli中可以执行，提供了良好的任务编写结构，并且方便执行相互依赖的任务
 
 rails项目中，rake文件存放位置：lib/tasks/user.rake
 
