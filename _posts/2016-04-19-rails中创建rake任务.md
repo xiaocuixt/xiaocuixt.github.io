@@ -94,6 +94,18 @@ task :default => 'say:hello'
 
 执行rake 即可运行该任务，很少用。
 
+6.rake支持传参
+{% highlight ruby %}
+task :generate => :environment do
+  p "begin generate user ....."
+  user = User.new(email: ENV['email'])
+  user.save
+  p "generate user successfully....."
+end
+{% endhighlight %}
+执行rake user:generate email='test@test.com'
+
+
 ﻿适用场景:
 
 1.调整线上的数据,执行rake脚本可以修改production数据库数据
