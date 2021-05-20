@@ -1,5 +1,7 @@
 # Gaya Jekyll Theme
 
+Template for blog: http://xiaocuixt.github.io/。
+
 Modern responsive theme made for jekyll blogging platform. 
 Gaya is a simple theme build from ground up with the focus of performance. 
 The theme itself quickly adapts to the users device, so it looks great on 
