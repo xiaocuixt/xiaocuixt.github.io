@@ -37,7 +37,7 @@ theme:
 
 # Build settings
 markdown: kramdown
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 # Permalinks
 permalink:        pretty
 
