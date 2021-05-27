@@ -6,7 +6,7 @@ categories: rails
 comments: true
 ---
 
-yield是与ruby中的块紧密结合的，块的语法就是{}或者do...end
+yield是与ruby中的block紧密结合的，block的语法就是{}(单行)或者do...end(多行)
 
 一个block总是被一个具有相同名称的函数调用，这就是说如果你有个名为test的block，你就可以使用名为test的函数来调用这个block.
 
@@ -64,7 +64,7 @@ end
 test { puts "Hello World!"}
 {% endhighlight %}
 
-﻿创建block的两种方式:
+﻿调用block的两种方式:
 
 {% highlight ruby %}
 1.单行block: test { .... }
