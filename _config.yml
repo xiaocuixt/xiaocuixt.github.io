@@ -3,11 +3,11 @@ title: Evan's Blog
 tagline: 
 email: cjw624923@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Hi, I'm a Web Developer, 热爱ROR开发, HTML CSS Javascript学习, 目标成为一名Full Stack Developer.
+  Hi, I'm Evan, Ruby Developer, 热爱ROR开发, HTML CSS Javascript学习, 目标成为一名Full Stack Developer.
 baseurl: "" # the subpath of your siimte, e.g. /blog/
 url: "http://xiaocuixt.github.io" # the base hostname & protocol for your site
 logourl: /assets/images/logo.png # Site logo
-author: "XiaoCui"
+author: "Evan"
 author_thumbnail: "/assets/images/avatar.jpg" # Author avatar
 # Theme customization - please change from the defaults!
 theme:
