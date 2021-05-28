@@ -8,3 +8,5 @@ gem 'github-pages', versions['github-pages']
 gem 'rake'
 
 gem 'listen'
+
+gem 'rouge'
