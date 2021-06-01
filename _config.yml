@@ -38,7 +38,6 @@ theme:
 # Build settings
 markdown: kramdown
 highlighter: rouge
-    input: GFM
 plugins: [jekyll-paginate]
 # Permalinks
 permalink:        pretty

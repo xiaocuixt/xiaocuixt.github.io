@@ -2,7 +2,7 @@
 layout: post
 title:  "jquery中data属性的一个小细节"
 date:   2020-04-25 18:30:00
-categories: rails
+categories: javascript
 comments: true
 ---
 
