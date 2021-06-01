@@ -16,14 +16,16 @@ extract_options!不是一个标准的ruby方法，而是一个rails为Array类�
 <p>需要注意的是，如果参数中没有hash，该方法返回一个空的hash</p>
 
 <p>数组直接调用</p>
-```
+
+```ruby
 a = [1, 2, a: 3]
 a.extract_options!  #=> {:a=>3}
 a #=> [1, 2] ## 数组a的值被改变
 ```
 
 <p>参数形式</p>
-```
+
+```ruby
 def options(*args)
   args.extract_options!
 end
@@ -35,7 +37,7 @@ options(1,2,a: :b, c: :d) #=> {:a=>:b, :c=>:d}
 
 <p>我们经常在rails中见到类似下面的方法调用的写法:</p>
 
-```
+```ruby
 custom_method :arg1
 
 custom_method :arg1, arg2, arg3
@@ -72,7 +74,7 @@ my_method(1,2, :a=>:b, :c=>:d)
   extract_options!方法在rails项目中大量使用，比如filter和validate相关代码
 </p>
 
-```
+```ruby
 before_action :my_method, if: :excute?, only: %w(new)
 
 validates_presence_of :field, :allow_blank: true
