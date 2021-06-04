@@ -5,7 +5,6 @@ date:   2015-03-26 11:41:00
 categories: rails部署
 comments: true
 ---
-
 1. 安装nginx
 sudo apt-get install nginx
 命令会生成/etc/nginx/nginx.conf配置文件, /etc/nginx/sites-available和/etc/nginx/sites-enabled目录

@@ -5,7 +5,6 @@ date:   2016-01-18 14:41:00
 categories: rails
 comments: true
 ---
-
 enum是rail中提供的一个枚举方法，在很多情况下还是很方便的，相关用法做个记录：
 
 1.假设管理post表的状态status,状态是固定的，可用integer类型

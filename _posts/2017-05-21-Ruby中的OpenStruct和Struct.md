@@ -5,9 +5,7 @@ date:   2017-05-21 16:30:00
 categories: ruby
 comments: true
 ---
-
 <h3> OpenStruct </h3>
-
 <p>如官方文档介绍, OpenStruct是一个类似Hash的数据结构,它允许我们使用对象自带的值定义任意的属性,
 <p>这是通过使用Ruby的元编程来定义类本身的方法来实现的.
 <p>说白了就是通过一个数据结构来模拟class,有些数据有自己的属性，但是使用class会比较复杂，使用hash即可满足，但是hash存取值又不太方便，这是OpenStruct就排上用场了。

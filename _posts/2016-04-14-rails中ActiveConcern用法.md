@@ -5,7 +5,6 @@ date:   2016-04-14 18:30:00
 categories: rails
 comments: true
 ---
-
 首先了解下mixin的概念:
 
 mixin混入类,一个mixin可以看作是一组代码,可以添加到一个或者多个类中，在不使用继承的情况下,为这些类添加额外的功能.

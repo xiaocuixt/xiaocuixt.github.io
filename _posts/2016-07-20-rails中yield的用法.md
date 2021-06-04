@@ -5,7 +5,6 @@ date:   2016-07-20 20:30:00
 categories: rails
 comments: true
 ---
-
 yield是与ruby中的block紧密结合的，block的语法就是{}(单行)或者do...end(多行)
 
 一个block总是被一个具有相同名称的函数调用，这就是说如果你有个名为test的block，你就可以使用名为test的函数来调用这个block.

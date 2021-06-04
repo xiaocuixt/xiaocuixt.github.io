@@ -5,7 +5,6 @@ date:   2019-01-08 20:30:00
 categories: javascript
 comments: true
 ---
-
 <p>js默认是没有namespace的，所以我们在js中定义的任何东西(function, method, object, variable)都是全局性的，甚至在编码中会不断的增加变量等污染全局作用域。幸运的是，我们可以通过Object和IIFE(立即调用的函数表达式)来模拟出我们自己的namespace。这有助于我们更好的管理代码，而不用创建一些无用的全局变量和全局函数。</p>
 
 <p>下面的例子我们分别创建两个同名的方法:</p>

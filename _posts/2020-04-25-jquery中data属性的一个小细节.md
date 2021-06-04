@@ -5,8 +5,6 @@ date:   2020-04-25 18:30:00
 categories: javascript
 comments: true
 ---
-
-
 <p>很多人都用过html5中的data属性，而jquery也提供了对data属性的读取和设置方法。</p>
 <p>示例:</p>
 
