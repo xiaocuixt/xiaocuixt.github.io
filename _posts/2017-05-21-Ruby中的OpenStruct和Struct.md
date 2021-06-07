@@ -98,7 +98,7 @@ post = OpenStruct.new(title: "demo title")
 post.titl  #=> nil
 ```
 
-<p> 这个Hash不管我们拼写的title是否正确，都会加到Hash中.而使用Struct不会出现这个问题.
+<p> 这个Hash不管我们拼写的title是否正确，都会加到Hash中.而使用Struct不会出现这个问题.</p>
 
 <p>当你要用到继承的时候不要用Struct, Struct像是一个简单的封装了属性和方法的类.使用Struct最大的好处是它可以比hash或者array更好的表明数据的意义.</p>
 
@@ -115,7 +115,7 @@ post[:title]  #=> "My first post"
 post['title']  #=> "My first post"
 ```
 
-<p> OpenStruct类也包含很多类方法:
+<p> OpenStruct类也包含很多类方法:</p>
 
 ```ruby
 # 可以方便的转化为hash
