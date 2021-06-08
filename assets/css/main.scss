@@ -527,10 +527,10 @@ img {
  */
 
 .post, .page {
-  margin-bottom: 2em;
+  margin-bottom: 0.5em;
   padding: 1em;
   @include MQ(M) {
-    margin-bottom: 4em;
+    margin-bottom: 0.5em;
     padding: 2em;
   }
   background: $color-white;
@@ -553,7 +553,7 @@ img {
 /* Meta info after post-title */
 .post-meta {
   color: $gray-light;
-  padding: 1.5em 0 2em 0;
+//  padding: 1.5em 0 2em 0;
   letter-spacing: 1px;
   @include MQ(M) {
     font-size: 18px;    
@@ -597,13 +597,16 @@ img {
 .pagination {
   display: block;
   padding-bottom: 2em;
+  text-align: center;
+  margin-top: 2em;
   @include MQ(M) {
     padding-bottom: 4em;
   }
 }
 
 .post-title {
-  font-size: 30px!important;
+  font-size: 24px!important;
+  margin-top: 0px!important;
 }
 
 p {

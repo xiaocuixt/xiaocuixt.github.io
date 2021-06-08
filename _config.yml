@@ -43,7 +43,7 @@ plugins: [jekyll-paginate]
 permalink:        pretty
 
 # Pagination config
-paginate: 5
+paginate: 10
 
 # Files/Folders to be excluded from generated _site folder
 exclude: 
